@@ -2,6 +2,7 @@
 Data analysis script used to classify social media captions by emotional, sensational, and violent language patterns.
 Script de análisis de datos utilizado para clasificar los textos de publicaciones en redes sociales según patrones de lenguaje emocional, sensacionalista y violento.
 
+The information was scrapped with the programa name "Apify" first, because Instagram does not allow scrapping in a easy way!
 
 ##Methodology
 
@@ -28,6 +29,9 @@ re (regular expressions)
 unicodedata
 tqdm
 
+# Findings
+
+Posts related to violence generated the highest engagement, including comments, likes, and other interactions.
 
 Author
 
